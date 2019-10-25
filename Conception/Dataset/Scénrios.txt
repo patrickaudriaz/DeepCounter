@@ -1,0 +1,34 @@
+Enregistrement toute une journée 
+
+2 angles différentes pour même scène 
+
+_________
+
+Chaise (roulante)
+
+Personnes collées
+
+Persone qui cours (plusieurs vitesses)
+
+Gros groupe (lent + rapide)
+
+Capuchon (visage caché)
+
+Face/Dos
+
+_________
+
+2x2 scénarios
+
+___________
+
+Capture :
+
+sudo service uv4l_raspicam stop
+
+sudo blkid
+sudo mkdir /mnt/mydisk
+sudo mount /dev/sda1 /mnt/mydisk
+
+sudo raspivid -o /mnt/mydisk/pi2_scenario.h264 -w 720 -h 480 -t 1800000
+

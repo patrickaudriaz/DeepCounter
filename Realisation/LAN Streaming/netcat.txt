@@ -1,0 +1,10 @@
+Sender :
+raspivid -t 0 -w 1920 -h 1080 -fps 35 -n -o - | nc 160.98.30.133 5000
+
+
+Receiver :
+nc -l -p 5000 | mplayer -fps 45 -cache 1024 -
+
+
+SSH :
+ssh -Y pi@160.98.31.175   

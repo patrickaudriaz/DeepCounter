@@ -1,0 +1,142 @@
+GROUND TRUTH :
+	OUT : 144
+	IN : 172
+______________________________
+
+SSD Inception (Tensorflow) :
+	skipFrames = 10
+		OUT : 99 (68.75 %)
+		IN : 138 (80.23 %)
+		FPS : 90
+		INF : 60 ms
+
+	skipFrames = 5
+		OUT : 110 (76.38 %)
+		IN : 144 (83.72 %)
+		FPS : 55
+		INF : 60 ms
+		
+	skipFrames = 2
+		OUT : 
+		IN : 
+		FPS : 26
+		INF : 60 ms
+	
+	skipFrames = 1
+		OUT : 
+		IN : 
+		FPS : 13
+		INF : 60 ms
+______________________________
+
+SSD MobileNet (Tensorflow) :
+	skipFrames = 10
+		OUT :  42 (29.17 %)
+		IN :  66 (38.37 %)
+		FPS : 110
+		INF : 40 ms
+
+	skipFrames = 5
+		OUT : 
+		IN : 
+		FPS : 75
+		INF : 40 ms
+		
+	skipFrames = 2
+		OUT : 
+		IN : 
+		FPS : 36
+		INF : 40 ms
+
+	skipFrames = 1
+		OUT : 
+		IN : 
+		FPS : 18
+		INF : 40 ms
+______________________________
+
+SSD VGG (Caffe) :
+	skipFrames = 10
+		OUT : -
+		IN : -
+		FPS : -
+		INF : 600 ms
+______________________________
+
+YOLOv3 :
+	skipFrames = 10
+		OUT : 130 (90.28 %)
+		IN : 163 (94.77 %)
+		FPS : 27
+		INF : 300 ms
+
+	skipFrames = 5
+		OUT : 
+		IN : 
+		FPS : 14
+		INF : 300 ms
+
+	skipFrames = 2
+		OUT : 
+		IN : 
+		FPS : 5
+		INF : 300 ms
+
+	skipFrames = 1
+		OUT : 
+		IN : 
+		FPS : 2.5
+		INF : 300 ms
+______________________________	
+
+YOLOv3-tiny :
+	skipFrames = 10
+		OUT : 
+		IN : 
+		FPS : 120
+		INF : 30 ms
+
+	skipFrames = 5
+		OUT : 
+		IN : 
+		FPS : 85
+		INF : 30 ms
+	
+	skipFrames = 2
+		OUT : 
+		IN : 
+		FPS : 40
+		INF : 30 ms
+
+	skipFrames = 1
+		OUT : 
+		IN : 
+		FPS : 20
+		INF : 30 ms
+______________________________	
+
+YOLOv2 :
+	skipFrames = 10
+		OUT :
+		IN : 
+		FPS : 55
+		INF : 120 ms
+
+	skipFrames = 5
+		OUT : 
+		IN : 
+		FPS : 32
+		INF : 120 ms
+
+	skipFrames = 2
+		OUT : 
+		IN : 
+		FPS : 14
+		INF : 120 ms
+
+	skipFrames = 1
+		OUT : 
+		IN : 
+		FPS : 7
+		INF : 120 ms
+______________________________
